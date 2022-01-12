@@ -14,7 +14,7 @@ class User:
 
     def transfer_money(self, other_user, amount):
         self.account_balance -= amount
-        other_user. += amount 
+        # other_user. += amount 
 
 user = User("Mr.x")
 # print(user.__dict__)
